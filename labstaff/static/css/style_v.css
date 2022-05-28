@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+            background: blue;
+            /*background-image: url("res/kwnoledge_fon.jpg");*/
+            /*background-size: cover;*/
+            /*background: linear-gradient(blue,red);*/
+            font-family: Verdana;
+            font-size: xxx-large;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+}
+
+table{
+            /*background: yellow;*/
+            /*background: transparent;*/
+            background: linear-gradient(to bottom right, orangered , blue);
+            margin: 0 auto 0 auto;
+            border-style: outset;
+}
+
+tr, td {
+            width: calc(85vw/8);
+            height: calc(85vh/8);
+            padding: 0;
+            text-align: center;
+            font-family: Verdana;
+            font-size: xxx-large;
+}
+
+button{
+            /*background: chartreuse;*/
+            /*background: transparent;*/
+
+            background: linear-gradient(to top left, orangered 15%, blue 85%);
+            border-style: outset;
+}
+
+img{
+            width: calc(85vw/8);
+}
