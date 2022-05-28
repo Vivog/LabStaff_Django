@@ -1,0 +1,90 @@
+{% extends "main_app/main.html" %}
+{% load static %}
+{% block title %}LabStaff{% endblock title %}
+{% block tr1 %}
+<td><button><img src="{% static 'images/buttonIcon/averageOklad.png' %}"
+                 title="Средний оклад/Средний заработок"
+                 alt="Loading"
+                 onclick=document.getElementById('cell_2').innerHTML="11382\n12154"></button></td>
+<td id="cell_2" style="font-size: xxx-large">2</td>
+<td><button><img src="{% static 'images/buttonIcon/sortUp.png' %}"
+                 title="От Я до А"
+                 alt="Loading">
+                 </button></td>
+
+<td colspan="14" style="width: 100vw !important">Заголовок</td>
+
+
+<td><button><img src="{% static 'images/buttonIcon/sortDown.png' %}"
+                 title="От А до Я"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/tabel.png' %}"
+                 title="Табельный номер"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/oklad.png' %}"
+                 title="Оклад"
+                 alt="Loading">
+                 </button></td>
+{% endblock tr1 %}
+
+
+{% block tr2 %}
+<td><button><img src="{% static 'images/buttonIcon/addUser.png' %}"
+                 title="Добавить персонал"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/editUser.png' %}"
+                 title="Изменить данные"
+                 alt="Loading">
+                 </button></td>
+
+<td rowspan="3" colspan="16">18</td>
+
+<td><button><img src="{% static 'images/buttonIcon/prof.png' %}"
+                 title="Профессия"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/workplace.png' %}"
+                 title="Номер рабочего места"
+                 alt="Loading">
+                 </button></td>
+{% endblock tr2 %}
+
+
+{% block tr3 %}
+<td><button><img src="{% static 'images/buttonIcon/delUser.png' %}"
+                 title="Удалить данные"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/folder.png' %}"
+                 title="Архив"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/bonus.png' %}"
+                 title="Надбавка"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/phone.png' %}"
+                 title="Контактный номер"
+                 alt="Loading">
+                 </button></td>
+{% endblock tr3 %}
+
+
+{% block tr4 %}
+<td>7</td>
+<td><button><img src="{% static 'images/buttonIcon/listGroup.png' %}"
+                 title="Список подразделений"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/adress.png' %}"
+                 title="Домашний адрес"
+                 alt="Loading">
+                 </button></td>
+<td><button><img src="{% static 'images/buttonIcon/birthday.png' %}"
+                 title="Дата рождения"
+                 alt="Loading">
+                 </button></td>
+{% endblock tr4 %}

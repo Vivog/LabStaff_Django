@@ -17,7 +17,7 @@ table{
             /*background: yellow;*/
             /*background: transparent;*/
             background: linear-gradient(to bottom right, orangered , blue);
-            margin: 0 auto 0 auto;
+            margin: 0 0 0 0;
             border-style: outset;
 }
 
